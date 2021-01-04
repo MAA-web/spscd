@@ -4,4 +4,25 @@ body {
 
 h1.main-heading-my-boi {
     color: violet;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
+
+div.card {
+    height: 90vh;
+    background-color: black;
+}
+
+.card-text {
+    font-size: 20px;
+    color: navy;
+}
+
+.card-body {
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    align-self: middle;
+    background-size: 100%;
+}
+
