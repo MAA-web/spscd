@@ -1,5 +1,79 @@
 body {
+    /*background-color: black;*/
+}
+
+#inside-main-area {
+    display: flex;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+#inside-main-area > div {
+    /*margin: 100px;*/
+
+}
+
+.main-area{
+    align-items: center;
+    justify-content: center;
+    background-image: url("sadiq.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+#main-area1 {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: brightness(0);
+}
+
+#main-notes {
+    color: darkblue;
+    font-family: "Raleway", Sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
+#school-image {
+    z-index: 99999;
+    height: 300px;
+    width: 500px;
     background-color: black;
+    background-image: url("sadiq.jpeg");
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    filter: none !important;
+}
+
+#donate {
+    background-color: gold;
+    border-radius: 20px;
+    filter: none;
+}
+
+
+#menu {
+    display: flex;
+    margin-left: 35vh;
+    padding-top: 2vh;
+    filter: none;
+}
+
+#menu > ul > a {
+    margin: 10px;
+    color: chartreuse;
+}
+
+#many-cards {
+    display: flex;
+    align-self: center;
+}
+
+#many-cards > div {
+    margin: 5px;
 }
 
 h1.main-heading-my-boi {
@@ -8,14 +82,14 @@ h1.main-heading-my-boi {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
+/*
 div.card {
     height: 90vh;
     background-color: black;
 }
 
 .card-text {
-    font-size: 20px;
+font-size: 20px;
     color: navy;
 }
 
@@ -26,3 +100,4 @@ div.card {
     background-size: 100%;
 }
 
+*/
