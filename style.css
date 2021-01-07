@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+}
+
+
+
+#inside-main-area > div {
+    /*margin: 100px;*/
+
+}
+
+#images-and-links {
+    display: flex;
+}
+
+#spslogo {
+    flex-flow: row-reverse;
+    margin-left: 4vh;
+    margin-top: 4vh;
+    height: 100px;
+    width: 100px;
+    background-color: lawngreen;
+}
+
+
+
+.main-area1 {
+    backdrop-filter: brightness(60%);
+    height: 85.2vh;
+}
+
+.main-area{
+    align-items: center;
+    justify-content: center;
+    background-image: url("sadiq.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85.2vh;
+}
+
+#main-notes {
+
+}
+
+
+
+#donate {
+    background-color: gold;
+    border-radius: 20px;
+    filter: none;
+}
+
+
+#menu {
+    display: flex;
+    margin-left: 35vh;
+    padding-top: 2vh;
+    filter: none;
+}
+
+#menu > ul > a {
+    margin: 10px;
+    color: chartreuse;
+}
+
+
+h1.main-heading-my-boi {
+    color: violet;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/*
+div.card {
+    height: 90vh;
+    background-color: black;
+}
+
+.card-text {
+font-size: 20px;
+    color: navy;
+}
+
+.card-body {
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    align-self: middle;
+    background-size: 100%;
+}
+
+*/
