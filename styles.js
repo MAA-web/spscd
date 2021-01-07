@@ -43,7 +43,6 @@ console.log(screen.width/2)
     var dropdown = document.getElementById("dropdown")
     
     dropdown.style.color = "white"
-    dropdown.style.image
     document.getElementById("dropdown").style.position = "relative";
     document.getElementById("dropdown").style.display = "inline-block";
 
