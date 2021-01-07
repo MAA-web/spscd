@@ -140,6 +140,7 @@ else {
             dropdown_content.left = "-390%";
 
     })
+}
     // document.onclick = function() {
     //         dropdown_content.display = "none";
     //         //dropdown_content.left = "-390%";
