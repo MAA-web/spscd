@@ -13,6 +13,11 @@ body {
     display: flex;
 }
 
+#dropdown-content {
+    backdrop-filter: brightness(60%);
+    text-align: right;
+}
+
 #spslogo {
     flex-flow: row-reverse;
     margin-left: 4vh;

@@ -78,6 +78,7 @@ console.log(screen.width/2)
     document.addEventListener("click", function() {
             dropdown_content.display = "inline-block";
             dropdown_content.left = "-390%";
+            // dropdown_content.filter = "brightness(40%)";
 
     })
     // document.onmouseover = function() {
