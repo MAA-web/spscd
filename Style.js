@@ -113,6 +113,18 @@ else {
     document.getElementById("dropdown-content").style.boxShadow = "0px 8px 16px 0px rgba(0,0,0,0.2)";
     document.getElementById("dropdown-content").style.padding = "12px 16px";
     
+
+    document.addEventListener("mouseover", function() {
+        dropdown_content.display = "inline-block";
+        dropdown_content.left = "-390%";
+
+    })
+    document.onclick = function() {
+            dropdown_content.display = "none";
+            //dropdown_content.left = "-390%";
+
+    }
+
     }
     
     var x = 0;
