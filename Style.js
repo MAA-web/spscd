@@ -135,7 +135,7 @@ else {
     document.getElementById("dropdown-content").style.padding = "12px 16px";
     
 
-    document.addEventListener("click", function() {
+    document.addEventListener("mouseover", function() {
             dropdown_content.display = "inline-block";
             dropdown_content.left = "-390%";
 
