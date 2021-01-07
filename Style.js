@@ -111,30 +111,29 @@ else {
     document.getElementById("dropdown-content").style.boxShadow = "0px 8px 16px 0px rgba(0,0,0,0.2)";
     document.getElementById("dropdown-content").style.padding = "12px 16px";
     
+    }
     
     var x = 0;
 
-    if (x == 0) {
+    // if (x == 0) {
 
-        dropdown.onclick = function ()
-            {
-                dropdown_content.display = "inline-block";
-                var displayed = true;
-                x = x + 1
-            }
-        
-        console.log(dropdown_content.display)
-    }
+        document.addEventListener("click", function(){
+            dropdown_content.display = "inline-block";
+            dropdown_content.left = "-200%"
+            var displayed = true;
+            x = x + 1
+        });
 
-    if (x == 1) {
+
+//     }
+
+//     if (x == 1) {
     
-        dropdown.onclick = function ()
-            {
-                dropdown_content.display = "none";
-                displayed = false;
-                x = x - 1
-            }
+//         dropdown.onclick = function ()
+//             {
+//                 dropdown_content.display = "none";
+//                 displayed = false;
+//                 x = x - 1
+//             }
         
-    }
-
-}
+//     }
