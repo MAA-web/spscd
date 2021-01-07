@@ -76,7 +76,7 @@ else {
 
     var m = document.getElementById("m");
 
-    document.getElementById("m").innerHTML = '<div id="dropdown"><span>menu</span><div id="dropdown-content"><ul> <a href="">Lorem</a> </ul><ul> <a href="">ipsum</a> </ul><ul> <a href="">nostrum</a> </ul><ul> <a href="">dolor</a> </ul><ul> <a href="">sit</a> </ul><ul> <a href="">amet</a> </ul><ul> <a href="">consectetur</a> </ul><ul> <a href="">eligendi</a> </ul><button id="donate">Donate to save lives</button></div><div>'
+    document.getElementById("m").innerHTML = '<div id="dropdown"><span/>MENU<span/><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-button-wide-fill" viewBox="0 0 16 16"><path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0h-13zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0l-.396-.396zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg><div id="dropdown-content"><ul> <a id="a1" href="">Lorem</a> </ul><ul> <a id="a2" href="">ipsum</a> </ul><ul> <a id="a3" href="">nostrum</a> </ul><ul> <a id="a4" href="">dolor</a> </ul><ul> <a id="a5" href="">sit</a> </ul><ul> <a id="a6" href="">amet</a> </ul><ul> <a id="a7" href="">consectetur</a> </ul><ul> <a id="a8" href="">eligendi</a> </ul><button id="donate">Donate to save lives</button></div><div>'
 
     var button = document.getElementById("donate");
 
@@ -104,6 +104,23 @@ else {
 
     var dropdown_content = document.getElementById("dropdown-content").style
     var dropdown = document.getElementById("dropdown")
+
+    document.getElementById("a1").style.color = "black";
+    document.getElementById("a1").style.fontSize = "20px";
+    document.getElementById("a2").style.color = "black";
+    document.getElementById("a2").style.fontSize = "20px";
+    document.getElementById("a3").style.color = "black";
+    document.getElementById("a3").style.fontSize = "20px";
+    document.getElementById("a4").style.color = "black";
+    document.getElementById("a4").style.fontSize = "20px";
+    document.getElementById("a5").style.color = "black";
+    document.getElementById("a5").style.fontSize = "20px";
+    document.getElementById("a6").style.color = "black";
+    document.getElementById("a6").style.fontSize = "20px";
+    document.getElementById("a7").style.color = "black";
+    document.getElementById("a7").style.fontSize = "20px";
+    document.getElementById("a8").style.color = "black";
+    document.getElementById("a8").style.fontSize = "20px";
       
     document.getElementById("dropdown-content").style.display = "none";
     document.getElementById("dropdown-content").style.position = "absolute";
