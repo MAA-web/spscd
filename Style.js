@@ -145,6 +145,7 @@ else {
             //dropdown_content.left = "-390%";
 
     }
+    }
     
     
     

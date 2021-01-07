@@ -75,16 +75,16 @@ console.log(screen.width/2)
     document.getElementById("dropdown-content").style.padding = "12px 16px";
     
 
-    document.addEventListener("mouseover", function() {
+    document.addEventListener("click", function() {
             dropdown_content.display = "inline-block";
             dropdown_content.left = "-390%";
 
     })
-    document.onclick = function() {
-            dropdown_content.display = "none";
-            //dropdown_content.left = "-390%";
+    // document.onmouseover = function() {
+    //         dropdown_content.display = "none";
+    //         //dropdown_content.left = "-390%";
 
-    }
+    // }
         // if (x == 1) {
         //    dropdown_content.display = "none";
         //    x = x - 1

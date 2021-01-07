@@ -67,7 +67,7 @@ body {
     padding: 10px;
 }
 
-#menu > ul > a:hover {
+/* #menu > ul > a:hover {
     color: blue;
 }
 
@@ -86,7 +86,7 @@ body {
 
 #many-cards > div {
     margin: 5px;
-}
+} */
 
 h1.main-heading-my-boi {
     color: violet;
