@@ -135,17 +135,17 @@ else {
     document.getElementById("dropdown-content").style.padding = "12px 16px";
     
 
-    document.addEventListener("mouseover", function() {
+    document.addEventListener("click", function() {
             dropdown_content.display = "inline-block";
             dropdown_content.left = "-390%";
 
     })
-    document.onclick = function() {
-            dropdown_content.display = "none";
-            //dropdown_content.left = "-390%";
+    // document.onclick = function() {
+    //         dropdown_content.display = "none";
+    //         //dropdown_content.left = "-390%";
 
-    }
-    }
+    // }
+    // }
     
     
     
