@@ -124,8 +124,8 @@ else {
       
     document.getElementById("dropdown-content").style.display = "none";
     document.getElementById("dropdown-content").style.position = "absolute";
-    document.getElementById("dropdown-content").style.backgroundColor = "black";
-    dropdown_content.color = "white";
+    //document.getElementById("dropdown-content").style.backgroundColor = "black";
+    dropdown_content.color = "black";
     document.getElementById("dropdown-content").style.minWidth = "80px";
     document.getElementById("dropdown-content").style.boxShadow = "0px 8px 16px 0px rgba(0,0,0,0.2)";
     document.getElementById("dropdown-content").style.padding = "12px 16px";
