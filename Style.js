@@ -1,6 +1,8 @@
 var width = screen.width
 var height = screen.height
 var ws = width/1.8 - 200
+var rhws = screen.width/4
+var realhalfwidth = rhws + "px"
 var halfwidth = ws + "px"
 var hs = height/4 - 20
 var quarterheight = hs + "px"
@@ -107,7 +109,7 @@ else {
     document.getElementById("dropdown-content").style.position = "absolute";
     document.getElementById("dropdown-content").style.backgroundColor = "black";
     dropdown_content.color = "white";
-    document.getElementById("dropdown-content").style.minWidth = "160px";
+    document.getElementById("dropdown-content").style.minWidth = "80px";
     document.getElementById("dropdown-content").style.boxShadow = "0px 8px 16px 0px rgba(0,0,0,0.2)";
     document.getElementById("dropdown-content").style.padding = "12px 16px";
     
@@ -119,7 +121,7 @@ else {
 
         document.addEventListener("click", function(){
             dropdown_content.display = "inline-block";
-            dropdown_content.left = "-200%"
+            dropdown_content.left = "-390%"
             var displayed = true;
             x = x + 1
         });
