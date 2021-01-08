@@ -1,22 +1,13 @@
 body {
     background-color: black;
+    margin: 0px;
 }
 
-
-
-#inside-main-area > div {
-    /*margin: 100px;*/
-
-}
 
 #images-and-links {
     display: flex;
 }
 
-#dropdown-content {
-    backdrop-filter: brightness(60%);
-    text-align: right;
-}
 
 #spslogo {
     flex-flow: row-reverse;
@@ -42,11 +33,6 @@ body {
     background-size: cover;
     height: 85.2vh;
 }
-
-#main-notes {
-
-}
-
 
 
 #donate {
@@ -75,22 +61,9 @@ h1.main-heading-my-boi {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-/*
-div.card {
-    height: 90vh;
-    background-color: black;
+
+#main-notes {
+    display: flex;
+    flex-direction: column;
 }
 
-.card-text {
-font-size: 20px;
-    color: navy;
-}
-
-.card-body {
-    background-image: url("1.jpg");
-    background-repeat: no-repeat;
-    align-self: middle;
-    background-size: 100%;
-}
-
-*/

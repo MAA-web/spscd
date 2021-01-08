@@ -1,12 +1,12 @@
 body {
     background-color: white;
+    margin: 0px;
 }
 
-
-
-#inside-main-area > div {
-    /*margin: 100px;*/
-
+#main-notes {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
 .main-area1 {
@@ -23,9 +23,6 @@ body {
     height: 85.2vh;
 }
 
-#main-notes {
-
-}
 
 #images-and-links {
     display: flex;
@@ -72,49 +69,10 @@ body {
     padding: 10px;
 }
 
-/* #menu > ul > a:hover {
-    color: blue;
-}
-
-#menu > ul > a::selection {
-    color: crimson;
-}
-
-#menu > ul > a:link {
-    text-decoration: none;
-}
-
-#many-cards {
-    display: flex;
-    align-self: center;
-}
-
-#many-cards > div {
-    margin: 5px;
-} */
-
 h1.main-heading-my-boi {
     color: violet;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-/*
-div.card {
-    height: 90vh;
-    background-color: black;
-}
 
-.card-text {
-font-size: 20px;
-    color: navy;
-}
-
-.card-body {
-    background-image: url("1.jpg");
-    background-repeat: no-repeat;
-    align-self: middle;
-    background-size: 100%;
-}
-
-*/
