@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(37, 36, 36);
     margin: 0px;
 }
 
@@ -76,3 +76,80 @@ h1.main-heading-my-boi {
     margin-bottom: 20px;
 }
 
+#onewithpics {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    
+    
+}
+
+/* #onewithpics > div {
+    margin-left: 70px;
+    width: 500px;
+} */
+
+
+#thenums {
+    font-size: 100px;
+    font-weight: 1000;
+    color: rgb(238, 232, 238);
+}
+
+#thelets {
+    color: rgb(238, 232, 238);
+}
+
+#pic1 {
+    background-color: teal;
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#pic2 {
+    background-color: thistle;
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#pic3 {
+    background-color: tomato;
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#pic4 {
+    background-color: violet;
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#pic5 {
+    background-color: violet;
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#pic6 {
+    background-color: violet;
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

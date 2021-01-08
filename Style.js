@@ -8,6 +8,7 @@ var hs = height/4 - 20
 var quarterheight = hs + "px"
 
 console.log(screen.width/2)
+var onewithpics = document.getElementById("onewithpics")
 
 
 
@@ -41,8 +42,21 @@ if (screen.width > 640) {
     document.getElementById("school-image").style.marginTop = quarterheight;
     document.getElementById("m").innerHTML = '<ul id="menu"><ul> <a href="">Lorem</a> </ul><ul> <a href="">ipsum</a> </ul><ul> <a href="">nostrum</a> </ul><ul> <a href="">dolor</a> </ul><ul> <a href="">sit</a> </ul><ul> <a href="">amet</a> </ul><ul> <a href="">consectetur</a> </ul><ul> <a href="">eligendi</a> </ul><button id="donate">Donate to save lives</button></ul>'
 
-    
+
+    document.getElementById("pic1").style.width = "500px";
+    document.getElementById("pic1").style.marginLeft = "70px";
+    document.getElementById("pic2").style.width = "500px";
+    document.getElementById("pic2").style.marginLeft = "70px";
+    document.getElementById("pic3").style.width = "500px";
+    document.getElementById("pic3").style.marginLeft = "70px";
+    document.getElementById("pic4").style.width = "500px";
+    document.getElementById("pic4").style.marginLeft = "70px";
+    document.getElementById("pic5").style.width = "500px";
+    document.getElementById("pic5").style.marginLeft = "70px";
+    document.getElementById("pic6").style.width = "500px";
+    document.getElementById("pic6").style.marginLeft = "70px";
 }
+    
 else {
 
     
@@ -83,10 +97,11 @@ else {
 
     document.getElementById("m").innerHTML = '<div class="dropdown"><button onclick="clickfunction()" class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-button-wide-fill" viewBox="0 0 16 16"><path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0h-13zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0l-.396-.396zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg></button><div id="myDropdown" class="dropdown-content"><ul> <a id="a1" href="">Lorem</a> </ul><ul> <a id="a2" href="">ipsum</a> </ul><ul> <a id="a3" href="">nostrum</a> </ul><ul> <a id="a4" href="">dolor</a> </ul><ul> <a id="a5" href="">sit</a> </ul><ul> <a id="a6" href="">amet</a> </ul><ul> <a id="a7" href="">consectetur</a> </ul><ul> <a id="a8" href="">eligendi</a> </ul><button id="donate">Donate to save lives</button></div><div></div>'
     //document.innerHTML = '<link rel="stylesheet" href="Dropdown.css">';
-    document.getElementById("head").innerHTML = '<link rel="stylesheet" href="Dropdown.css"><link rel="stylesheet" href="Main.css"><link rel="stylesheet" href="Style.css">';
+    document.getElementById("head").innerHTML = '<link rel="stylesheet" href="Dropdown.css"><link rel="stylesheet" href="Main.css"><link rel="stylesheet" href="Styles.css">';
     var button = document.getElementById("donate");
 
 
+    document.getElementById("main-area").style.backgroundSize = screen.width
 
 
     button.style.size = "inherit";
@@ -158,4 +173,21 @@ else {
     document.getElementById("main-notes").style.textAlign = "left";
     document.getElementById("main-notes").style.height = "200px";
     document.getElementById("main-notes").style.width = "400px";
+
+
+    document.getElementById("onewithpics").style.display = "block";
+    document.getElementById("onewithpics").style.gridTemplateColumns = "0"
+    document.getElementById("pic1").style.width = screen.width + "px";
+    //document.getElementById("pics1").style.margin = "20px"
+    document.getElementById("pic1").style.marginLeft = "0px";
+    document.getElementById("pic2").style.width = screen.width + "px";
+    document.getElementById("pic2").style.marginLeft = "0px";
+    document.getElementById("pic3").style.width = screen.width + "px";
+    document.getElementById("pic3").style.marginLeft = "0px";
+    document.getElementById("pic4").style.width = screen.width + "px";
+    document.getElementById("pic4").style.marginLeft = "0px";
+    document.getElementById("pic5").style.width = screen.width + "px";
+    document.getElementById("pic5").style.marginLeft = "0px";
+    document.getElementById("pic6").style.width = screen.width + "px";
+    document.getElementById("pic6").style.marginLeft = "0px";
 }
