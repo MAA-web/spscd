@@ -102,6 +102,7 @@ else {
 
 
     document.getElementById("main-area").style.backgroundSize = screen.width
+    document.getElementById("main-area").style.width = screen.width
 
 
     button.style.size = "inherit";
@@ -113,9 +114,9 @@ else {
     button.style.filter = "none";
 
     m.style.float = "right";
-    m.style.paddingTop = "7vh";
-    m.style.paddingLeft = "7.5px"
-    m.style.marginLeft = realhalfwidth;
+     m.style.paddingTop = "7vh";
+     m.style.paddingLeft = screen.width/2.5 + "px"//realhalfwidth;//"7.5px"
+     m.style.marginLeft = realhalfwidth;
     //m.style.backgroundColor = "rgb(2, 1, 1)";
 
 
@@ -149,6 +150,7 @@ else {
     document.getElementById("myDropdown").style.backgroundColor = "rgb(20, 20, 20)";
     dropdown.color = "white";
     document.getElementById("myDropdown").style.minWidth = screen.width + "px";
+    dropdown.marginLeft = "40px";
     document.getElementById("myDropdown").style.boxShadow = "0px 8px 16px 0px rgba(0,0,0,0.2)";
     document.getElementById("myDropdown").style.padding = "12px 16px";
     
@@ -171,6 +173,7 @@ else {
     document.getElementById("notes").style.fontSize = "34px";
     document.getElementById("notes").style.fontWeight = "700";
     document.getElementById("main-notes").style.textAlign = "left";
+    document.getElementById("main-notes").style.paddingLeft = "80px";
     document.getElementById("main-notes").style.height = "200px";
     document.getElementById("main-notes").style.width = "400px";
 
