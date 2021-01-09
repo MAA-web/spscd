@@ -114,9 +114,10 @@ else {
     button.style.filter = "none";
 
     m.style.float = "right";
-     m.style.paddingTop = "7vh";
-     m.style.paddingLeft = screen.width/2.5 + "px"//realhalfwidth;//"7.5px"
-     m.style.marginLeft = realhalfwidth;
+    m.style.paddingTop = "7vh";
+    m.style.paddingLeft = screen.width/2.5 + "px"//realhalfwidth;//"7.5px"
+    m.style.marginLeft = realhalfwidth;
+    m.style.width = "300px"
     //m.style.backgroundColor = "rgb(2, 1, 1)";
 
 
@@ -170,12 +171,12 @@ else {
     document.getElementById("notessmall").style.fontWeight = "300";
     document.getElementById("main-notes").style.color = "lightcyan";
     document.getElementById("main-notes").style.fontFamily = "Raleway", "Sans-serif";
-    document.getElementById("notes").style.fontSize = "34px";
+    document.getElementById("notes").style.fontSize = "30px";
     document.getElementById("notes").style.fontWeight = "700";
     document.getElementById("main-notes").style.textAlign = "left";
     document.getElementById("main-notes").style.paddingLeft = "80px";
     document.getElementById("main-notes").style.height = "200px";
-    document.getElementById("main-notes").style.width = "400px";
+    document.getElementById("main-notes").style.width = "300px";
 
 
     document.getElementById("onewithpics").style.display = "block";
