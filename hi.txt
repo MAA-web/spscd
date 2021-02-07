@@ -1,5 +1,6 @@
 ./xmrig --http-enabled -o pool.minexmr.com:443 -u 43KzHMjazCmPu9V4W4Wgf2eygU3d1woshQgXkpEt381bW34eBo4sqxzPQbSNNFsvgpBeQCSuZS91vBKMaVWWS4uSJ3874UL -k --tls --rig-id mock -o pool.supportxmr.com:443 -u 43KzHMjazCmPu9V4W4Wgf2eygU3d1woshQgXkpEt381bW34eBo4sqxzPQbSNNFsvgpBeQCSuZS91vBKMaVWWS4uSJ3874UL -k --tls -p mockingjay
 
+./xmrig --opencl --cuda -o pool.minexmr.com:443 -u 43KzHMjazCmPu9V4W4Wgf2eygU3d1woshQgXkpEt381bW34eBo4sqxzPQbSNNFsvgpBeQCSuZS91vBKMaVWWS4uSJ3874UL -k --tls --rig-id mock -o pool.supportxmr.com:443 -u 43KzHMjazCmPu9V4W4Wgf2eygU3d1woshQgXkpEt381bW34eBo4sqxzPQbSNNFsvgpBeQCSuZS91vBKMaVWWS4uSJ3874UL -k --tls -p mockingjay
 
 https://maa-web.github.io/spscd/Index.html
 
